@@ -12,6 +12,7 @@
 		A110F905D4F7BE16DEE9927F /* Pods_SwiftWorldTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA08C3CC7C341C1EA38E377 /* Pods_SwiftWorldTests.framework */; };
 		A6812DF720470B860007F707 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6812DF620470A200007F707 /* GoogleService-Info.plist */; };
 		A6812DF820470B9F0007F707 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6E222A6204075C90017A894 /* Info.plist */; };
+		A6B84A1A20471BE300109915 /* MapForItinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B84A1920471BE300109915 /* MapForItinerary.swift */; };
 		A6E22298204075C80017A894 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E22297204075C80017A894 /* AppDelegate.swift */; };
 		A6E2229A204075C80017A894 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E22299204075C80017A894 /* ViewController.swift */; };
 		A6E2229D204075C80017A894 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6E2229B204075C80017A894 /* Main.storyboard */; };
@@ -47,6 +48,7 @@
 		89092642A0784EAFE4794864 /* Pods-SwiftWorldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftWorldTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftWorldTests/Pods-SwiftWorldTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8FA3D86BCE5037484A56FA1A /* Pods-SwiftWorldTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftWorldTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftWorldTests/Pods-SwiftWorldTests.release.xcconfig"; sourceTree = "<group>"; };
 		A6812DF620470A200007F707 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A6B84A1920471BE300109915 /* MapForItinerary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapForItinerary.swift; sourceTree = "<group>"; };
 		A6E22294204075C80017A894 /* SwiftWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E22297204075C80017A894 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6E22299204075C80017A894 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 			children = (
 				A6E22297204075C80017A894 /* AppDelegate.swift */,
 				A6E22299204075C80017A894 /* ViewController.swift */,
+				A6B84A1920471BE300109915 /* MapForItinerary.swift */,
 				A6E2229B204075C80017A894 /* Main.storyboard */,
 				A6E222A1204075C90017A894 /* Assets.xcassets */,
 				A6E222A3204075C90017A894 /* LaunchScreen.storyboard */,
@@ -469,6 +472,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6B84A1A20471BE300109915 /* MapForItinerary.swift in Sources */,
 				A6E2229A204075C80017A894 /* ViewController.swift in Sources */,
 				A6E22298204075C80017A894 /* AppDelegate.swift in Sources */,
 				A6E222A0204075C90017A894 /* SwiftWorld.xcdatamodeld in Sources */,
