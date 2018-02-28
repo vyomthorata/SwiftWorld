@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func buttonClicked(_ sender: UIButton){
-        print("You finished at 2pm and 3pm")
+        print("You finished at 2pm and 3pm and 4pm")
     }
     
     override func didReceiveMemoryWarning() {
